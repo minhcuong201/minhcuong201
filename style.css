@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container_menu{
+        display: flex;
+        gap: 0 100px ;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 160px;
+        margin-right: 150px;
+}
+.container_menu img{
+    width: 100px;
+    height: 100px; 
+    margin-left: 20px; 
+    
+}
+.container_menu ul{
+        display: flex;
+        gap: 0 20px;
+        margin-right: 20px;
+        color: rgb(5, 5, 56);
+}
+.container_menu ul li{
+    list-style: none;
+    padding: 0 15px;
+}
+.underline{
+    text-decoration: underline;
+    color: 	rgb(218,165,32);
+}
+.container_menu ul li:hover{
+    color: rgb(178, 178, 47);
+}
+.container_section {
+    padding: 0 30px;
+}
+.card_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+}
+.card{
+    display: flex;
+    gap: 0 30px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-right: 150px;
+    
+}
+.card_content h3{
+    color: rgb(5, 5, 56);
+    font-size: 30px;
+}
+
+.card_content p{
+    color: rgb(5, 5, 56);
+}
+.card_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+}
+.card_content button{
+    width: 100px;
+    padding: 8px 12px ;
+    background-color: rgb(5, 5, 56);
+    color: white;
+}
+
+.card_content p {
+    display: flex;
+    gap: 0 10px;
+}
+.card_content p::before{
+    content: "";
+    width: 10px;
+    height: 100%;
+    background-color: rgb(5, 5, 56);
+    display: block;
+}
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center center;
+    flex: 1;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgb(5, 5, 56);
+}
+.container_box{
+    display: flex;
+    gap: 0 20px;
+    justify-content : center;
+    margin-left: 160px;
+    margin-right: 150px;
+}
+.container img{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container p{
+    color: rgb(69, 140, 228);
+}
+.container input{
+    align-items: center;
+    color: #aaaa;
+    border: 100px;
+}
+.container h4{
+    font-size: 1.6rem;
+}
+.bt button{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    background-color: rgb(5, 5, 56);
+    padding: 5px 2px;
+    color: white;
+    margin: auto;
+}
+.content_section{
+    display: flex;
+    gap: 0 20px;
+    justify-content : center;
+    margin-left: 160px;
+    margin-right: 150px;
+}
+.content_box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content_box img{
+    width: 100%;
+}
+.content_box p{
+    text-align: center;
+}
+.content_reight{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgb(5, 5, 56);
+    font-size: 1.6rem;
+}
+.content_tong{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content_left{
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  
+}
+.content_in {
+    display: flex;
+    width: 38%;
+}
+.content_in input{
+    align-items: center;
+    border: 100px;
+    padding-left: 20px;
+    background-color: #aaaa;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    
+}
+.content_left1{
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+    justify-content: center;
+}
+.content_left2{
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+    margin-left: 165px;
+    width: 204%;
+}
+.content_n{
+    display: flex;
+    gap: 5px;
+    margin-left: 165px;
+    color: rgb(5, 5, 56);
+}
+.content_bt button{
+    display: flex;
+    justify-content: center;
+    width: 78%;
+    background-color: rgb(5, 5, 56);
+    padding: 5px 2px;
+    color: white;
+    margin: auto;
+}
+.footer_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_menu img{
+width: 100px;
+height: 100px;
+
+}
+.footer_menu ul{
+    display: flex;
+    gap: 0 20px;
+}
+.footer_menu ul li{
+list-style: none;
+padding: 0 15px;
+}
+.footer_menu ul li:hover{
+color: rgb(178, 178, 47);
+}
+.container_icons {
+    display: flex;
+    gap: 0 15px;
+    align-items: center;
+    margin-right: 160px;
+}
+.footer_container {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.icon {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: rgb(5, 5, 56);
+    color: white;
+
+}
